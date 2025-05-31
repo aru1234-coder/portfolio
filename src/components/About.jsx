@@ -5,10 +5,10 @@ const About = () => {
   return (
     <div className="mb-10">
       <BlurFade delay={0.6} inView>
-        <h1 className="font-bold text-xl">About</h1>
+        <h1 className="text-xl font-bold">About</h1>
       </BlurFade>
       <BlurFade delay={0.7} inView>
-        <p className="text-gray-600">
+        <p className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
           I'm a passionate full-stack developer with a strong foundation in
           building dynamic and responsive web applications. With expertise in
           Next.js, PHP, MySQL and modern frontend technologies like HTML, CSS,

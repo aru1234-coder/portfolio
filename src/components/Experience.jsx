@@ -5,11 +5,11 @@ import Image from "next/image";
 const Experience = () => {
   return (
     <div className="mb-10">
-      <BlurFade delay={0.25} inView>
+      <BlurFade delay={0.8} inView>
         <h1 className="font-bold text-xl">Work Experience</h1>
       </BlurFade>
 
-      <BlurFade delay={0.5} inView>
+      <BlurFade delay={0.9} inView>
         <div className="py-3 space-y-2">
           <div className="flex justify-between">
             <div className="flex gap-x-3">

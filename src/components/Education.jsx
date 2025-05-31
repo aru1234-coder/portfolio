@@ -5,11 +5,11 @@ import Image from "next/image";
 const Education = () => {
   return (
     <div className="mb-10">
-      <BlurFade delay={0.8} inView>
+      <BlurFade delay={0.2} inView>
         <h1 className="font-bold text-xl">Education</h1>
       </BlurFade>
 
-      <BlurFade delay={0.5} inView>
+      <BlurFade delay={0.3} inView>
         <div className="py-3 space-y-2">
           <div className="flex justify-between">
             <div className="flex gap-x-3">
@@ -28,7 +28,7 @@ const Education = () => {
                 </div>
               </div>
             </div>
-            <div className="text-gray-500 text-sm">July 2019 - Jun 2023</div>
+            <div className="text-gray-500 text-sm">2019 - 2023</div>
           </div>
         </div>
       </BlurFade>

@@ -71,7 +71,7 @@ const DATA = {
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center fixed bottom-2.5 left-[42%]">
       <TooltipProvider>
         <Dock direction="middle">
           {DATA.navbar.map((item) => (

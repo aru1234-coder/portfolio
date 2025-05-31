@@ -12,7 +12,7 @@ export default function Header() {
             </h2>
           </BlurFade>
           <BlurFade delay={0.5} inView>
-            <span className="text-pretty text-xl sm:text-3xl xl:text-lg">
+            <span className="inline-block max-w-[600px] md:text-xl">
               Full Stack Developer with hands-on experience in building scalable
               web applications using modern technologies like React, Node.js,
               and MongoDB. Passionate about clean code, intuitive UI/UX, and
